@@ -1,2 +1,8 @@
 # crawler_for_articles
-News Content Collect and Store Create a solution that crawls for articles from a news website, cleanses the response, stores in BigQuery then makes it available to search via an API.
+Esta solução que rastreia artigos de sites de notícias, limpa a resposta retornada, armazena esta resposta no BigQuery (Google Cloud) e disponibiliza para pesquisa por meio de uma API python.
+
+Requirementes:
+python 3.12
+scrapy
+readability-lxml
+Google Cloud SDK
