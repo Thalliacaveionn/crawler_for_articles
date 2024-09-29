@@ -15,3 +15,8 @@ Using the commands
 
 ## Create a new spider:
 `scrapy genspider guardian_spider bbc_article_spider`
+
+## Connection GoogleCloud
+To connect to GoogleCloud and be able to upload data to the 'bbc' table, it was necessary to create a service account. It was also necessary to review/release the necessary accesses so that the service user could manipulate the table ...
+### Permissions service user
+BigQuery data reader and editor
