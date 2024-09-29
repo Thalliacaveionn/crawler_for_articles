@@ -1,4 +1,4 @@
-# Crawler for read articles
+## Crawler for read articles
 This solution crawls articles from the www.bbc.com site, cleans the returned response, stores this response in BigQuery (Google Cloud), and makes it available for search through a python API.
 
 # Requirementes: 
