@@ -1,10 +1,17 @@
-# crawler_for_articles
-Esta solução que rastreia artigos de sites de notícias, limpa a resposta retornada, armazena esta resposta no BigQuery (Google Cloud) e disponibiliza para pesquisa por meio de uma API python.
+# Crawler for read articles
+This solution crawls articles from the www.bbc.com site, cleans the returned response, stores this response in BigQuery (Google Cloud), and makes it available for search through a python API.
 
-Requirementes: python 3.12, scrapy, readability-lxml, Google Cloud SDK
+# Requirementes: 
+python 3.12
+
+# Pip install requirements: 
+scrapy, readability-lxml, google-cloud-bigquery
 
 # Create the Scrapy Project:
 Using the command
 
-`scrapy startproject news_crawler
-cd news_crawler`
+`scrapy startproject article_creawler`
+`cd article_creawler`
+
+# Create a new spider:
+`scrapy genspider guardian_spider bbc_article_spider`
